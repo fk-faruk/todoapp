@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1><%= todayDay %></h1>
+
+    <ul>
+      <!-- <li>foods</li>
+      <li>games</li>
+      <li>places</li> -->
+
+      <% for (i = 0; i<newlistitems.length; i++){ %>
+      <li><h3><%=newlistitems[i]%></h3></li>
+      <%}%>
+    </ul>
+
+    <form action="/" method="post" class="">
+      <input type="text" name="input" />
+      <button class="" type="submit">submit</button>
+    </form>
+  </body>
+</html>
